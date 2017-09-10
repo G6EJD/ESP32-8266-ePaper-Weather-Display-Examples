@@ -1,8 +1,8 @@
 /*########################   Weather Display  #############################
  * Receives and displays the weather forecast from the Weather Underground and then displays using a 
- * JSON decoder wx data to display on a web page using a webserver.
- * Weather data received via WiFi connection to Weather Underground Servers and using their 'Forecast' API and data
- * is decoded using Copyright Benoit Blanchon's (c) 2014-2017 excellent JSON library.
+ * JSON decoder wx data to show weather data on a 4.2" 400x300 pixel SPI bus e-paper display.
+ * Weather data received via WiFi connection to Weather Underground Servers and using their 'Forecast' and 'Astronomy' API and data
+ * is decoded using the excellent Benoit Blanchon's (c) 2014-2017 JSON library.
  * This source code is protected under the terms of the MIT License and is copyright (c) 2017 by David Bird and permission is hereby granted, free of charge, to
  * any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, but not to sub-license and/or 
