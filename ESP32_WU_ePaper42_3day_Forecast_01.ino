@@ -261,21 +261,21 @@ void DisplayForecast(){ // Display is 400x300 resolution
   DisplayText(200,75,WDay1 + " " + Day1);
   DisplayText(195,90,Conditions1);
   DisplayText(60,100,High1 + "/" + Low1);
-  DisplayText(115,100,Averagehumidity0 + "%");
+  DisplayText(115,100,Averagehumidity1 + "%");
   DisplayText(158,100,Pop1 + "%");
   DisplayText(60,115,"-------------------------");
   DisplayWXicon(0,120, Icon2); DisplayWXicon(75,120, "thermo"); DisplayWXicon(155,120, "probrain");
   DisplayText(200,135,WDay2 + " " + Day2);
   DisplayText(195,150,Conditions2);
   DisplayText(60,160,High2 + "/" + Low2);
-  DisplayText(115,160,Averagehumidity0 + "%");
+  DisplayText(115,160,Averagehumidity2 + "%");
   DisplayText(158,160,Pop2 + "%");
   DisplayText(60,175,"--------------------------");
   DisplayWXicon(0,180, Icon3); DisplayWXicon(75,180, "thermo"); DisplayWXicon(155,180, "probrain");
   DisplayText(200,195,WDay3 + " " + Day3);
   DisplayText(195,210,Conditions3);
   DisplayText(60,220,High3 + "/" + Low3);
-  DisplayText(115,220,Averagehumidity0 + "%");
+  DisplayText(115,220,Averagehumidity3 + "%");
   DisplayText(158,220,Pop3 + "%");
   DisplayText(60,235,"--------------------------");
   
